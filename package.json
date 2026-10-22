@@ -1,0 +1,21 @@
+{
+  "name": "nero-aircraft-maintenance",
+  "version": "1.0.0",
+  "description": "Nero Aircraft Maintenance Record Keeping and Airworthiness System",
+  "main": "start.js",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "aviation",
+    "aircraft-maintenance",
+    "airworthiness",
+    "mro",
+    "flight-records"
+  ],
+  "author": "Nero Aero",
+  "license": "ISC"
+}
