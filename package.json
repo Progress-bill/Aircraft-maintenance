@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node start.js",
+    "build": "node build.js",
+    "render-build": "node build.js",
+    "render-start": "node server/index.js",
     "server": "npm --prefix server start",
     "client": "npm --prefix client run dev"
   },
