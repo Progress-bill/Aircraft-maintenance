@@ -2,10 +2,11 @@
   "name": "nero-aircraft-maintenance",
   "version": "1.0.0",
   "description": "Nero Aircraft Maintenance Record Keeping and Airworthiness System",
-  "main": "start.js",
+  "main": "server/index.js",
   "type": "module",
   "scripts": {
-    "start": "node start.js",
+    "start": "node server/index.js",
+    "dev": "node start.js",
     "build": "node build.js",
     "render-build": "node build.js",
     "render-start": "node server/index.js",
